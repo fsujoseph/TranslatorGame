@@ -184,7 +184,9 @@ class Main:
                                "Please follow the link below to learn how to write them on your OS.\n\n"
                                "To change the topic, type in the title of a valid Wikipedia article \n"
                                "in the bottom input and select change topic. If there are spaces in the\n"
-                               "head of the article, use underscores. i.e. Amazon_Prime").pack()
+                               "head of the article, use underscores. i.e. Amazon_Prime\n\n"
+                               "Advanced Users: If you would like to get access to the data yourself\n"
+                               "open the getData.py file to manipulate the data to select what you want.").pack()
         link = Label(new_window, text=r"https://rom.uga.edu/inserting-diacritical-marks", fg="blue", cursor="hand")
         link.pack()
         link.bind("<Button-1>", callback)
