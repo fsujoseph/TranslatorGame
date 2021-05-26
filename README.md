@@ -23,3 +23,7 @@ I would like to create a more dynamic GUI in the future. It's pretty barebones r
 improvement. I would also like to spend more time debugging. If the user enters an invalid Wikipedia article it will most likely encounter an error. I also had
 to develop a set of code that cleans out data from the scraped Wikipedia data because the raw data contains symbols, newlines, sources, etc. A lot of the article 
 doesn't end up being used and there's a chance something that doesn't make sense makes it into the clean data set. 
+
+## Execute Program
+
+To run the program, simply run the gui.py file.
