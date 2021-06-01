@@ -1,7 +1,7 @@
 import requests
 
 
-def get_data(page='oregon_state_university'):
+def get_data(page):
     url = 'http://flip1.engr.oregonstate.edu:7043/?query=' + page
 
     html_data = requests.get(url).text
